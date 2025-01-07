@@ -19,8 +19,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: frontend
-          environment_name: frontend-env
+          application_name: FrontNode
+          environment_name: FrontNode-env
           existing_bucket_name: elasticbeanstalk-us-east-1-730335378782
           region: us-east-1
           version_label: ${{ github.sha }}
